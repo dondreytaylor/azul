@@ -887,7 +887,7 @@ impl<'a, T: Layout> Window<T> {
                 builder = builder.with_vsync(true);
             }
             if srgb {
-                builder = builder.with_srgb(true);
+                //builder = builder.with_srgb(true);
             }
 
             builder
